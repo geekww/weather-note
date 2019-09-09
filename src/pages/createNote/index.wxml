@@ -1,0 +1,7 @@
+<view class="container">
+    <text>1111</text>
+
+    <!--<view class="footer">-->
+        <!--<button class="create-note" open-type="getUserInfo" bindgetuserinfo="createNote">+ 写心情</button>-->
+    <!--</view>-->
+</view>
