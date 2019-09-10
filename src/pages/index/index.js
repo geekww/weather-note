@@ -1,4 +1,4 @@
-const app = getApp()
+const app = getApp();
 
 Page({
     data: {
@@ -95,7 +95,7 @@ Page({
         })
     },
 
-    // 授权后用户操作（创建心情）
+    // 创建心情
     createNote(e) {
         // 获取用户openId
         wx.cloud.callFunction({
@@ -112,7 +112,7 @@ Page({
                         if (res.data.length > 0) {
                             // 跳转至写心情页面
                             wx.navigateTo({
-                                url: '../createNote/index',
+                                url: '../create-note/index',
                             })
                         } else {
                             // 创建新用户

@@ -10,3 +10,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+## 渐变色值
+#4dcdf4 》 #3DB2F9
+主色调 #3DB2F9

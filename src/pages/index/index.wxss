@@ -1,5 +1,5 @@
 page {
-    background: #f6f6f6;
+    background: #f8f8f8;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -20,6 +20,6 @@ page {
     text-align: center;
     line-height: 80rpx;
     color: #fff;
-    background: linear-gradient(to right, #4dcdf4, #1589f0);
+    background: linear-gradient(to right, #4dcdf4, #3DB2F9);
     box-shadow: 0 4px 10px rgba(15, 37, 64, 0.2);
 }

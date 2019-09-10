@@ -1,0 +1,21 @@
+<view class="container">
+
+    <!--便签列表-->
+    <view class="note-list">
+        <view class="note-item" wx:for="{{list}}" wx:for-item="note">
+            <view class="main-body">
+                <!--便签信息-->
+                <view class="info">
+                    <text class="memo">{{ note.memo }}</text>
+                    <text class="time">{{ note.time }}</text>
+                </view>
+                <!--心情-->
+                <view class="weather sunny"></view>
+            </view>
+
+
+            <!--操作-->
+            <!--<view class="operate">删除</view>-->
+        </view>
+    </view>
+</view>

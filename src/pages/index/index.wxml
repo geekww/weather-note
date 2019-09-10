@@ -1,6 +1,6 @@
 <view class="container">
 
     <view class="footer">
-        <button class="create-note" open-type="getUserInfo" bindgetuserinfo="createNote">+ 写心情</button>
+        <button class="create-note" open-type="getUserInfo" bindgetuserinfo="createNote">+ 记录心情</button>
     </view>
 </view>

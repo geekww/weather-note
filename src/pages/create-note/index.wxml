@@ -1,0 +1,27 @@
+<view class="container">
+    <!--文本编辑区域-->
+    <view class="text-area">
+        <textarea placeholder="记录一下此刻的心情吧！" maxlength="150"></textarea>
+    </view>
+
+    <!--选择心情-->
+    <view class="weather-list">
+        <text class="choose-mood">此刻心情</text>
+        <view class="weather weather-cloudy">
+            <!--<view class="sunny"></view>-->
+            <view class="cloudy"></view>
+            <!--<view class="rainy"></view>-->
+            <!--<view class="rainbow"></view>-->
+            <!--<view class="starry"></view>-->
+            <!--<view class="stormy"></view>-->
+            <!--<view class="snowy"></view>-->
+        </view>
+        <!--<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"-->
+                <!--disabled="{{disabled}}" bindtap="primary"> 选择一个心情吧 </button>-->
+    </view>
+
+    <!--底部工具栏-->
+    <view class="tool-bar">
+
+    </view>
+</view>

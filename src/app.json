@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/create-note/index",
+    "pages/my-note/index",
+    "pages/member-center/index"
+  ],
+  "window": {
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3DB2F9",
+    "navigationBarTitleText": "晴雨便签",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "black",
+    "color":"#999",
+    "selectedColor":"#3DB2F9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"/images/icon/index.png",
+        "selectedIconPath":"/images/icon/index-selected.png"
+      },
+      {
+        "pagePath": "pages/my-note/index",
+        "text": "便签",
+        "iconPath":"/images/icon/my-note.png",
+        "selectedIconPath":"/images/icon/my-note-selected.png"
+      },
+      {
+        "pagePath": "pages/member-center/index",
+        "text": "我的",
+        "iconPath":"/images/icon/member-center.png",
+        "selectedIconPath":"/images/icon/member-center-selected.png"
+      }
+    ]
+  }
+}
