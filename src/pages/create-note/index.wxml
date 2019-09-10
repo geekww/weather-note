@@ -6,7 +6,15 @@
 
     <!--选择心情-->
     <view class="weather-list">
-        <text class="choose-mood">此刻心情</text>
+        <text class="choose-mood">
+            此刻心情：
+            风和日丽、
+            如晴天似雨天、
+            繁星点点、
+            雨过天晴、
+            电闪雷鸣、
+            千里冰封
+        </text>
         <view class="weather weather-cloudy">
             <!--<view class="sunny"></view>-->
             <view class="cloudy"></view>
