@@ -851,7 +851,6 @@ a {
 }
 
 .weather {
-    transform: scale(.9);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -864,18 +863,18 @@ a {
 .weather-cloudy {
     background: #2EB5E5;
 }
+.weather-stormy {
+    background: #444444;
+}
 .weather-rainy {
     background: #E6E6E6;
 }
-.weather-rainbow {
-    background: #F3D166;
+.weather-snowy {
+    background: #85DB8C;
 }
 .weather-starry {
     background: #222233;
 }
-.weather-stormy {
-    background: #444444;
-}
-.weather-snowy {
-    background: #85DB8C;
+.weather-rainbow {
+    background: #F3D166;
 }
