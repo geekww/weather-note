@@ -19,7 +19,7 @@ page {
     border-radius: 0 40rpx 0 40rpx;
     background: #fff;
     padding: 30rpx;
-    box-shadow: 0 4rpx 12rpx 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 6rpx 6rpx 16rpx 0 rgba(0, 0, 0, 0.1);
 }
 .text-area textarea {
     width: 100%;

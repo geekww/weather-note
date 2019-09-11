@@ -26,7 +26,7 @@ Page({
             },
             {
                 weather: 'snowy',
-                word: '千里冰封'
+                word: '千里冰封，万里雪飘'
             },
             {
                 weather: 'rainbow',
